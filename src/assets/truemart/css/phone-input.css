@@ -1,0 +1,20 @@
+.vue-phone-number-input .input-phone-number input {
+    margin-left: 0 !important;
+}
+.field.vue-input-ui .field-input:not(.textarea),
+.country-selector .field-input {
+    height: 36px !important;
+    min-height: 36px !important;
+}
+
+.country-selector.has-value .field-label {
+    display: none !important;
+}
+
+.country-selector.has-value .field-input {
+    padding-top: 4px !important;
+}
+
+.country-selector .field-country-flag {
+    top: 12px !important;
+}

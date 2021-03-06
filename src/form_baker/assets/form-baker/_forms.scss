@@ -1,0 +1,19 @@
+@import "variables";
+
+.form-group {
+  .group-title {
+    border-bottom: 1px solid $theme-color;
+    padding: $standard-padding 0;
+    margin: $standard-padding 0;
+  }
+
+  .input-group {
+    padding: $standard-padding $extra-padding;
+    margin: $standard-margin 0;
+
+    .default-input {
+      padding: $standard-padding $extra-padding;
+      margin: $standard-margin 0;
+    }
+  }
+}

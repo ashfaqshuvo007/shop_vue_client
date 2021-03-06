@@ -1,0 +1,31 @@
+import {DOMAIN_NAME} from "../../config/server_config";
+
+const API_USER_PROFILE = DOMAIN_NAME + '/users/profile/';
+const API_BASE_APP = DOMAIN_NAME + '/base/';
+const API_COUNTRY = API_BASE_APP + 'country/';
+
+const API_PRODUCTS = DOMAIN_NAME + '/products/';
+const API_PRODUCT_OPERATIONS = API_PRODUCTS + 'product/';
+const API_PRODUCT_CATEGORIES = API_PRODUCTS + 'category/';
+const API_PRODUCT_CATEGORY_ATTRIBUTES = API_PRODUCTS + 'attribute/';
+
+const API_ORDERS = DOMAIN_NAME + '/orders/';
+const API_PRODUCT_BOOKING = API_ORDERS + 'order/';
+
+const API_CHAT_THREAD = DOMAIN_NAME + '/chats/';
+const API_CHAT_THREAD_MESSAGES = API_CHAT_THREAD + 'messages/';
+
+const API_SPONSORS = DOMAIN_NAME + '/sponsors/';
+const API_FEATURED_CATEGORIES = API_SPONSORS + 'featured-categories/';
+
+export {
+    API_USER_PROFILE,
+    API_COUNTRY,
+    API_PRODUCTS,
+    API_PRODUCT_OPERATIONS,
+    API_PRODUCT_CATEGORIES,
+    API_PRODUCT_CATEGORY_ATTRIBUTES,
+    API_FEATURED_CATEGORIES,
+    API_PRODUCT_BOOKING,
+    API_CHAT_THREAD_MESSAGES,
+}
